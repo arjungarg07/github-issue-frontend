@@ -28,7 +28,7 @@ const Issue = ({
 			<div className="ml-3">
 				<div className="font-medium text-left">{title}</div>
 				<div className="text-gray-700 text-sm">
-					#{id} opened <ReactTimeAgo date={createdAt} locale="en-US"/>
+					#{id} opened kmakmsakmkamkasmksm
 				</div>
 			</div>
 		</div>

@@ -4,49 +4,48 @@
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
-	  "@craco/craco": "^5.9.0",
-	  "@material-ui/core": "^4.11.2",
-	  "@testing-library/jest-dom": "^5.11.4",
-	  "@testing-library/react": "^11.1.0",
-	  "@testing-library/user-event": "^12.1.10",
-	  "autoprefixer": "^9.8.6",
-	  "axios": "^0.21.0",
-	  "bootstrap": "^4.5.3",
-	  "dotenv": "^8.2.0",
-	  "express": "^4.17.1",
-	  "postcss": "^7.0.35",
-	  "react": "^17.0.1",
-	  "react-bootstrap": "^1.4.0",
-	  "react-dom": "^17.0.1",
-	  "react-paginate": "^6.5.0",
-	  "react-scripts": "4.0.1",
-	  "react-time-ago": "^6.2.1",
-	  "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.1",
-	  "web-vitals": "^0.2.4"
+		"@craco/craco": "^5.9.0",
+		"@material-ui/core": "^4.11.2",
+		"@testing-library/jest-dom": "^5.11.4",
+		"@testing-library/react": "^11.1.0",
+		"@testing-library/user-event": "^12.1.10",
+		"autoprefixer": "^9.8.6",
+		"axios": "^0.21.0",
+		"bootstrap": "^4.5.3",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"postcss": "^7.0.35",
+		"react": "^17.0.1",
+		"react-bootstrap": "^1.4.0",
+		"react-dom": "^17.0.1",
+		"react-paginate": "^6.5.0",
+		"react-scripts": "4.0.1",
+		"react-time-ago": "^6.2.4",
+		"tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.1",
+		"web-vitals": "^0.2.4"
 	},
 	"scripts": {
-	  "start": "craco build && node server.js",
-	  "build": "craco build",
-	  "test": "craco test",
-	  "eject": "react-scripts eject"
+		"start": "craco build && node server.js",
+		"build": "craco build",
+		"test": "craco test",
+		"eject": "react-scripts eject"
 	},
 	"eslintConfig": {
-	  "extends": [
-		"react-app",
-		"react-app/jest"
-	  ]
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
 	},
 	"browserslist": {
-	  "production": [
-		">0.2%",
-		"not dead",
-		"not op_mini all"
-	  ],
-	  "development": [
-		"last 1 chrome version",
-		"last 1 firefox version",
-		"last 1 safari version"
-	  ]
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
 	}
-  }
-  
+}
